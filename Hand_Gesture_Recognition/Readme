@@ -1,0 +1,18 @@
+Business problem overview:
+==========================
+Consider a home electronics company which manufactures smart televisions want to develop a feature in the smart-TV that can recognise five different gestures performed by the user which will help users control the TV without using a remote.
+
+Dataset: https://www.kaggle.com/imsparsh/gesture-recognition
+
+This dataset has 5 gestures having 30 frames in sequence for each sample(video). Each video is a sequence of 30 frames (or images).
+
+Each gesture corresponds to the following specific command:
+Thumbs up: Increase the volume
+Thumbs down: Decrease the volume
+Left swipe: 'Jump' backward 10 seconds
+Right swipe: 'Jump' forward 10 seconds
+Stop: Pause the movie
+
+I have built these below two models for sequence classification.
+-CNN followed by GRU
+-Convolution 3D network
