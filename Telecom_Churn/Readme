@@ -7,4 +7,4 @@ To reduce customer churn, telecom companies need to predict which customers are 
 
 In this project, I analysed customer-level data of a leading telecom firm, built predictive models to identify customers at high risk of churn and identified the main indicators of churn.
 
-PCA, Logistic regression, Random Forest
+PCA, Logistic regression, Random Forest models.
